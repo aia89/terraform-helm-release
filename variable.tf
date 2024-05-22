@@ -3,7 +3,7 @@ variable "name" {
   type        = string
   default     = "app"
 }
-  variable namespace {
+  variable "namespace" {
   description = "please neter a namespace"
   type = string 
   default = ""
