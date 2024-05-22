@@ -6,5 +6,6 @@
 module "release" {
   source  = "aia89/release/helm"
   name = "testapplication"
+  namespace = "testapp"
 }
 ```
